@@ -5,13 +5,14 @@ public class Exceptions0 {
 		
 		int a = 5;
 		int b = 0;
+		int c;
 		
 		try{
-			int c = a/b; // we know it won't work but we try anyway
+			c = a/b; // we know it won't work but we try anyway
 		}
-		catch (ArithmeticException e){
+		catch (Exception e){
 			
-			System.out.println("You can't divide by zero!");;
+			System.out.println("You can't divide by zero!"+e);
 		}
 	}
 }
