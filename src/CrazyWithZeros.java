@@ -10,7 +10,7 @@ public class CrazyWithZeros {
 		}
 	}
 	
-	public static int divideTheseNumbers(int a, int b){
+	public static int divideTheseNumbers(int a, int b) throws Exception{
 		int c;
 		try{
 			c = a/b;
