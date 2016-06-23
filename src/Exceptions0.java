@@ -1,5 +1,5 @@
 
-public class Exceptions {
+public class Exceptions0 {
 	
 	public static void main (String[] args){
 		
