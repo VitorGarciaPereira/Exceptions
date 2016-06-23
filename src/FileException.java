@@ -13,7 +13,7 @@ public class FileException {
 		
 	}
 	
-	// this method throws an exception that is handle by the main method
+	// this method throws an exception that is handled by the main method
 	
 	public static void openFile(String path) throws Exception{
 		
